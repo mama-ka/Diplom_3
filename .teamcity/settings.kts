@@ -35,7 +35,7 @@ project {
         githubAppConnection {
             id = "PROJECT_EXT_34"
             displayName = "NewApp"
-            appId = "381000"
+            appId = "3810001"
             clientId = "Iv1.4e9bf005b09c0efb"
             clientSecret = "credentialsJSON:2c460a70-94ef-402b-b926-5f69b8ec40fd"
             privateKey = "credentialsJSON:1899b9cb-c8b2-4f76-af84-4d25089ec1e1"
