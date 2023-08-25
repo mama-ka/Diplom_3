@@ -1,6 +1,5 @@
 import jetbrains.buildServer.configs.kotlin.*
 import jetbrains.buildServer.configs.kotlin.buildFeatures.perfmon
-import jetbrains.buildServer.configs.kotlin.projectFeatures.githubAppConnection
 import jetbrains.buildServer.configs.kotlin.triggers.vcs
 
 /*
@@ -30,18 +29,6 @@ version = "2023.05"
 project {
 
     buildType(Build)
-
-    features {
-        githubAppConnection {
-            id = "PROJECT_EXT_31"
-            displayName = "GitHub App (2)"
-            appId = "381000999999"
-            clientId = "Iv1.4e9bf005b09c0efb"
-            clientSecret = "credentialsJSON:2c460a70-94ef-402b-b926-5f69b8ec40fd"
-            privateKey = "credentialsJSON:1899b9cb-c8b2-4f76-af84-4d25089ec1e1"
-            ownerUrl = "https://github.com/dumamoiseev"
-        }
-    }
 }
 
 object Build : BuildType({
