@@ -16,13 +16,12 @@
       <parameters>
         <param name="connectionSubtype" value="gitHubApp" />
         <param name="displayName" value="NewApp" />
-        <param name="gitHubApp.appId" value="381000111" />
+        <param name="gitHubApp.appId" value="381000" />
         <param name="gitHubApp.clientId" value="Iv1.4e9bf005b09c0efb" />
         <param name="gitHubApp.ownerUrl" value="https://github.com/dumamoiseev" />
         <param name="providerType" value="GitHubApp" />
         <param name="secure:gitHubApp.clientSecret" value="credentialsJSON:2c460a70-94ef-402b-b926-5f69b8ec40fd" />
         <param name="secure:gitHubApp.privateKey" value="credentialsJSON:1899b9cb-c8b2-4f76-af84-4d25089ec1e1" />
-        <param name="twoLevelEnabled" value="false" />
       </parameters>
     </extension>
     <extension id="PROJECT_EXT_36" type="OAuthProvider">
